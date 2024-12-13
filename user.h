@@ -7,6 +7,8 @@ typedef struct _user
 	char* userLogin;
 	char* userPassword;
 }user;
+
 user accounts[100];
+extern int accountIndex;
 
 #endif // !_USER_H_
